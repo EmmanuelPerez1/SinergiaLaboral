@@ -1,0 +1,23 @@
+.jumbotron{
+	margin: 20px 100px;
+}
+.test{
+	background-color: lightgrey;
+	border: 1px solid black;
+}
+li{
+	border-right: 1px solid black;
+}
+.sobreNosotros{
+	border-left: 1px solid black;	
+}
+.background1{
+	background-image: url(https://st3.depositphotos.com/1177973/19216/i/1600/depositphotos_192167714-stock-photo-female-student-her-muslim-classmate.jpg);
+	background-repeat: no-repeat;
+	width: 100%;
+	height: auto;
+	background-size: 100% auto;
+}
+.navigationBar{
+	opacity: 0.5;
+}
