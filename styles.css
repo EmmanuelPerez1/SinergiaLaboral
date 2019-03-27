@@ -1,15 +1,12 @@
-.jumbotron{
-	margin: 20px 100px;
+.bienvenida{
+	padding: 50px 50px;
 }
-.test{
-	background-color: lightgrey;
-	border: 1px solid black;
-}
+
 li{
-	border-right: 1px solid black;
+	border-right: 3px solid #00a3cc;
 }
 .sobreNosotros{
-	border-left: 1px solid black;	
+	border-left: 3px solid #00a3cc;	
 }
 .background1{
 	background-image: url(https://st3.depositphotos.com/1177973/19216/i/1600/depositphotos_192167714-stock-photo-female-student-her-muslim-classmate.jpg);
@@ -20,4 +17,16 @@ li{
 }
 .navigationBar{
 	opacity: 0.5;
+	color: black;
+	font-weight: bold;
+}
+.textoBienvenida{
+	opacity: 0.7;
+	color: white;
+	background-color: #00a3cc;
+	font-weight: bold;
+
+}
+.bienvenidaintro{
+	border-top: 1px solid white;
 }
