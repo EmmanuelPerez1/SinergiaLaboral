@@ -4,7 +4,7 @@ li {
 
 nav.navigationBar a.nav-link,
 nav.navigationBar a.navbar-brand {
-	color: #00a3cc;
+  color: #00a3cc;
 }
 
 .background1 {
@@ -17,22 +17,22 @@ nav.navigationBar a.navbar-brand {
 }
 
 .bienvenida {
-	padding: 50px 50px;
+  padding: 50px 50px;
 }
 
 .bienvenidaintro {
-  border-top: 1px solid white;
+  border-top: 1px solid #fff;
 }
 
 /*.container.barraNavegacion{
   width: 100%;
-  background-color: white;
+  background-color: #fff;
   opacity: 0.8;
 }*/
 
 .navigationBar {
   opacity: 0.8;
-  background-color: white;
+  background-color: #fff;
   width: 100%;
   color: black;
   font-weight: bold;
@@ -44,7 +44,7 @@ nav.navigationBar a.navbar-brand {
 
 .textoBienvenida {
   opacity: 0.7;
-  color: white;
+  color: #fff;
   background-color: #00a3cc;
   font-weight: bold;
 }
