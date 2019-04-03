@@ -1,37 +1,23 @@
-.bienvenida {
-  padding: 50px 50px;
-}
-
 li {
   border-right: 1px solid #00a3cc;
 }
 
-.sobreNosotros {
-  border-left: 1px solid #00a3cc;
+nav.navigationBar a.nav-link,
+nav.navigationBar a.navbar-brand {
+	color: #00a3cc;
 }
 
 .background1 {
   /*URL de imagen de fondo*/
-  background-image: url(https://st3.depositphotos.com/1177973/19216/i/1600/depositphotos_192167714-stock-photo-female-student-her-muslim-classmate.jpg);
+  background-image: url('https://st3.depositphotos.com/1177973/19216/i/1600/depositphotos_192167714-stock-photo-female-student-her-muslim-classmate.jpg');
   background-repeat: no-repeat;
   width: 100%;
   height: auto;
   background-size: 100% auto;
 }
 
-.navigationBar {
-  opacity: 0.8;
-  background-color: white;
-  width: 100%;
-  color: black;
-  font-weight: bold;
-}
-
-.textoBienvenida {
-  opacity: 0.7;
-  color: white;
-  background-color: #00a3cc;
-  font-weight: bold;
+.bienvenida {
+	padding: 50px 50px;
 }
 
 .bienvenidaintro {
@@ -43,3 +29,22 @@ li {
   background-color: white;
   opacity: 0.8;
 }*/
+
+.navigationBar {
+  opacity: 0.8;
+  background-color: white;
+  width: 100%;
+  color: black;
+  font-weight: bold;
+}
+
+.sobreNosotros {
+  border-left: 1px solid #00a3cc;
+}
+
+.textoBienvenida {
+  opacity: 0.7;
+  color: white;
+  background-color: #00a3cc;
+  font-weight: bold;
+}
