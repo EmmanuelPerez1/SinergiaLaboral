@@ -2,8 +2,8 @@ li {
   border-right: 1px solid #00a3cc;
 }
 
-nav.navigationBar a.nav-link,
-nav.navigationBar a.navbar-brand {
+nav.navigation-bar a.nav-link,
+nav.navigation-bar a.navbar-brand {
   color: #00a3cc;
 }
 
@@ -20,29 +20,29 @@ nav.navigationBar a.navbar-brand {
   padding: 50px 50px;
 }
 
-.bienvenidaintro {
+.bienvenida-intro {
   border-top: 1px solid #fff;
 }
 
-/*.container.barraNavegacion{
+/*.container.barra-navegacion{
   width: 100%;
   background-color: #fff;
   opacity: 0.8;
 }*/
 
-.navigationBar {
+.navigation-bar {
   width: 100%;
   opacity: 0.8;
   background-color: #fff;
-  color: black;
+  color: #000;
   font-weight: bold;
 }
 
-.sobreNosotros {
+.sobre-nosotros {
   border-left: 1px solid #00a3cc;
 }
 
-.textoBienvenida {
+.texto-bienvenida {
   opacity: 0.7;
   background-color: #00a3cc;
   color: #fff;
