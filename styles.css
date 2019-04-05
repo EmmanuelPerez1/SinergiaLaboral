@@ -49,10 +49,20 @@ nav.navigation-bar a.navbar-brand {
 }
 
 .segunda-seccion{
-	padding: 50px 50px;
+	padding: 50px;
 }
 
 .caja-texto{
 	border-radius: 5px;
 	background-color: grey;
+}
+
+.tercera-seccion{
+  padding: 50px; 
+}
+.caja1{
+  background-color: grey;
+}
+.caja2{
+  background-color: black;
 }
