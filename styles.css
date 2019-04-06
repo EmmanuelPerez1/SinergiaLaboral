@@ -7,6 +7,12 @@ nav.navigation-bar a.navbar-brand {
   color: #00a3cc;
 }
 
+body{
+	overflow-x: hidden;
+	/*overflow-y: hidden;*/
+
+}
+
 .background1 {
   /*URL de imagen de fondo*/
   width: 100%;
@@ -65,4 +71,10 @@ nav.navigation-bar a.navbar-brand {
 }
 .caja2{
   background-color: black;
+}
+
+
+.logo-footer{
+	width: 150px;
+	height: 100px;
 }
