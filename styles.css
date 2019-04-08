@@ -10,7 +10,6 @@ nav.navigation-bar a.navbar-brand {
 body{
 	overflow-x: hidden;
 	/*overflow-y: hidden;*/
-
 }
 
 .background1 {
@@ -36,7 +35,7 @@ body{
   background-color: #fff;
   color: #000;
   font-weight: bold;
-}
+}|
 
 .sobre-nosotros {
   border-left: 1px solid #00a3cc;
@@ -50,8 +49,8 @@ body{
 }
 
 .logo{
-	width: 250px ;
-	height: 100px;
+	width: 200px ;
+	height: 70px;
 }
 
 .segunda-seccion{
@@ -75,6 +74,6 @@ body{
 
 
 .logo-footer{
-	width: 150px;
+	width: 120px;
 	height: 100px;
 }
