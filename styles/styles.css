@@ -1,0 +1,100 @@
+li {
+  border-right: 1px solid #00a3cc;
+}
+
+nav.navigation-bar a.nav-link,
+nav.navigation-bar a.navbar-brand {
+  color: #00a3cc;
+}
+
+body{
+	overflow-x: hidden;
+	/*overflow-y: hidden;*/
+}
+
+.background1 {
+  /*URL de imagen de fondo*/
+  width: 100%;
+  height: auto;
+  background-image: url('https://st3.depositphotos.com/1177973/19216/i/1600/depositphotos_192167714-stock-photo-female-student-her-muslim-classmate.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.bienvenida {
+  padding: 50px 50px;
+}
+
+.bienvenida-intro {
+  border-top: 1px solid #fff;
+}
+
+.navigation-bar {
+  width: 100%;
+  opacity: 0.8;
+  background-color: #fff;
+  color: #000;
+  font-weight: bold;
+}|
+
+.sobre-nosotros {
+  border-left: 1px solid #00a3cc;
+}
+
+.texto-bienvenida {
+  opacity: 0.7;
+  background-color: #00a3cc;
+  color: #fff;
+  font-weight: bold;
+}
+
+.logo{
+	width: 200px ;
+	height: 70px;
+}
+
+.segunda-seccion{
+	padding: 50px;
+}
+
+.caja-texto{
+	border-radius: 5px;
+	background-color: grey;
+}
+
+.tercera-seccion{
+  padding: 50px; 
+}
+
+.caja1{
+  background-color: grey;
+}
+
+.caja2{
+  background-color: black;
+}
+
+.logo-footer{
+	width: 150px;
+	height: 70px;
+}
+
+.face-logo{
+  width: 30px;
+  height: 30px;
+}
+
+.footer{
+  background-color: #00a3cc;
+  color: white;
+}
+
+.wopadding{
+  margin: 0px auto;
+}
+
+.tel-icon{
+  width: 30px;
+  /*height: 30px; */
+  padding-top: 10px;
+}
