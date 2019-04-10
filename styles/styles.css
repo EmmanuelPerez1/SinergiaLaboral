@@ -75,8 +75,8 @@ body{
 }
 
 .logo-footer{
-	width: 120px;
-	height: 100px;
+	width: 150px;
+	height: 70px;
 }
 
 .face-logo{
@@ -87,4 +87,14 @@ body{
 .footer{
   background-color: #00a3cc;
   color: white;
+}
+
+.wopadding{
+  margin: 0px auto;
+}
+
+.tel-icon{
+  width: 30px;
+  /*height: 30px; */
+  padding-top: 10px;
 }
