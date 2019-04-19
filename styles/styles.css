@@ -21,6 +21,14 @@ body{
   background-size: 100% auto;
 }
 
+.background-servicios-y-soulciones{
+  width: 100%;
+  height: auto;
+  background-image: url("../images/3_pag_cabeza.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto; 
+}
+
 .bienvenida {
   padding: 50px 50px;
 }
