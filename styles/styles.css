@@ -16,7 +16,7 @@ body{
   /*URL de imagen de fondo*/
   width: 100%;
   height: auto;
-  background-image: url('https://st3.depositphotos.com/1177973/19216/i/1600/depositphotos_192167714-stock-photo-female-student-her-muslim-classmate.jpg');
+  background-image: url("../images/1_index_cabeza.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto;
 }
@@ -35,6 +35,7 @@ body{
   background-color: #fff;
   color: #000;
   font-weight: bold;
+  font-size: 1.1em;
 }|
 
 .sobre-nosotros {
@@ -75,11 +76,11 @@ body{
 }
 
 .logo-footer{
-	width: 150px;
-	height: 70px;
+	width: 250px;
+	height: 100px;
 }
 
-.face-logo{
+.links{
   width: 30px;
   height: 30px;
 }
