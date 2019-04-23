@@ -25,7 +25,7 @@ body{
   /*URL de imagen de fondo*/
   width: 100%;
   height: auto;
-  background-image: url("../images/1_index_cabeza.jpg");
+  background-image: url("../images/2_pag_cabeza.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto;
 }
@@ -42,12 +42,13 @@ body{
   padding: 50px 50px;
 }
 
-.bienvenida-intro {
+p.bienvenida-intro {
   border-top: 1px solid #fff;
+  font-size: 31px;
 }
 
 .navigation-bar {
-  width: 102%;
+  width: 100%;
   position: fixed;
   opacity: 0.8;
   background-color: #797e89;
@@ -57,14 +58,17 @@ body{
 }
 
 .options-navbar{
-  padding: 0px 20px;
+  padding: 0px 22px;
 }
 
 .texto-bienvenida {
   opacity: 0.7;
-  background-color: #00a3cc;
+  background-color: #1b587c;
   color: #fff;
-  font-weight: bold;
+  border-radius: 10px;
+  padding: 7px 7px 7px;
+  font-family: 'Dosis', sans-serif;
+  font-size: 65px;
 }
 
 .logo{
