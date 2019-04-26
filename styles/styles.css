@@ -82,7 +82,8 @@ p.bienvenida-intro {
 .formulario{
   width: 100%;
   font-family: 'Raleway', sans-serif;
-  font-weight: bold;
+  font-weight: 900;
+  color: #1b587c;
 }
 
 .logo{
@@ -135,6 +136,7 @@ p.bienvenida-intro {
   padding-top: 10px;
 }
 
-.entrdas{
+.entradas{
   height: 2.5em;
+  color: #1b587c;
 }
