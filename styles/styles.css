@@ -19,6 +19,7 @@ body{
 
 .sobre-nosotros {
   border-left: 1px solid #1b587c;
+  font-family: 'Dosis', sans-serif;
 }
 
 .background1 {
@@ -38,6 +39,14 @@ body{
   background-size: 100% auto; 
 }
 
+.background-contacto{
+  width: 100%;
+  height: auto;
+  background-image: url("../images/5_pag_cabeza.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;  
+}
+
 .bienvenida {
   padding: 50px 50px;
 }
@@ -52,7 +61,6 @@ p.bienvenida-intro {
   position: fixed;
   opacity: 0.8;
   background-color: #797e89;
-  /*color: #000;*/
   font-weight: bold;
   font-size: 1.1em;
 }
@@ -71,9 +79,15 @@ p.bienvenida-intro {
   font-size: 65px;
 }
 
+.formulario{
+  width: 100%;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
 .logo{
-	width: 160px ;
-	height: 50px;
+	width: 170px ;
+	height: 58px;
 }
 
 .segunda-seccion{
@@ -118,6 +132,5 @@ p.bienvenida-intro {
 
 .tel-icon{
   width: 30px;
-  /*height: 30px; */
   padding-top: 10px;
 }
