@@ -50,6 +50,7 @@
     </ul>
     </div>
   </nav>
+<!-- Espacio para imagen de fondo -->
 <div class="container">
   <div class="row"> <p></p> </div>
   <div class="row"> <p></p> </div>
@@ -90,25 +91,34 @@
   <div class="row"> <p></p> </div>
   <div class="row"> <p></p> </div>
 </div>
-
+<!-- Formulario -->
 <div class="container formulario">
   <h3 class="text-center">Contacto</h3>
-  <form method="post">
+  <div class="row justify-content-center"> <div class="col-9">
+  <form method="post" id="contacto">
     <p>   Comunícate con nosotros</p>
     <p></p>
-    <input type="text" name="nombre-contacto" id="nombre-contacto" placeholder="Nombre*" class="formulario">
+    <input type="text" name="nombre-contacto" id="nombre-contacto" placeholder="Nombre*" class="formulario entradas">
     <p></p>
-    <input type="text" name="nombre-empresa" id="nombre-empresa" placeholder="Empresa*" class="formulario">
+    <input type="text" name="nombre-empresa" id="nombre-empresa" placeholder="Empresa*" class="formulario entradas">
     <p></p>
-    <input type="email" name="mail-contacto" id="mail-contacto" placeholder="Correo Electrónico*" class="formulario">
+    <input type="email" name="mail-contacto" id="mail-contacto" placeholder="Correo Electrónico*" class="formulario entradas">
     <p></p>
-    <input type="tel" name="telefono-contacto" id="telefono-contacto" placeholder="Número Telefónico" class="formulario">
+    <input type="tel" name="telefono-contacto" id="telefono-contacto" placeholder="Número Telefónico" class="formulario entradas">
     <p></p>
-    <input type="text" name="mensaje-contacto" id="mensaje-contacto" placeholder="Mensaje*" class="formulario">
+    <textarea placeholder="Mensaje*" rows="10" cols="100" class="formulario" id="mensaje-contacto"></textarea>
   </form>
+
   <p></p>
   <p></p>
-  <input type="submit" name="btn-submit" onclick="#">
+  </div>
+  </div>
+  <div class="row justify-content-center"> <div class="col-4">
+    <button type="submit" class="btn btn-primary btn-lg" style="width: 100%" 
+    form="contacto" name="btn-submit" value="Submit" onclick="#"> ENVIAR</button>
+  </div></div>
+
+  <p></p>
 </div>
 
 <!-- Pie de página -->
