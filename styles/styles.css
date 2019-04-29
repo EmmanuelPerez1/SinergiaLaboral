@@ -16,6 +16,10 @@ body{
   overflow-x: hidden;
   /*overflow-y: hidden;*/
 }
+p.bienvenida-intro {
+  border-top: 1px solid #fff;
+  font-size: 31px;
+}
 
 .sobre-nosotros {
   border-left: 1px solid #1b587c;
@@ -47,13 +51,16 @@ body{
   background-size: 100% auto;  
 }
 
-.bienvenida {
-  padding: 50px 50px;
+.background-política-calidad{
+  width: 100%;
+  height: auto;
+  background-image: url("../images/4_pag_cabeza.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;   
 }
 
-p.bienvenida-intro {
-  border-top: 1px solid #fff;
-  font-size: 31px;
+.bienvenida {
+  padding: 50px 50px;
 }
 
 .navigation-bar {
@@ -139,4 +146,19 @@ p.bienvenida-intro {
 .entradas{
   height: 2.5em;
   color: #1b587c;
+}
+
+.texto-contacto-política{
+  margin: 3em 6.8em;
+  font-family: 'Raleway', sans-serif;
+  color: #1b587c;
+  text-align: center;
+}
+
+.mk-circle{
+  text-align: center;
+  background-color: #1b587c;
+  opacity: 0.95;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
 }
