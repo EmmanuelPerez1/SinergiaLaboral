@@ -1,3 +1,4 @@
+
 li {
   border-right: 1px solid #1b587c;
 }
@@ -59,6 +60,14 @@ p.bienvenida-intro {
   background-size: 100% auto;   
 }
 
+.background-sobre-nosotros{
+  width: 100%;
+  height: auto;
+  background-image: url("../images/2_pag_cabeza.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
 .bienvenida {
   padding: 50px 50px;
 }
@@ -94,17 +103,17 @@ p.bienvenida-intro {
 }
 
 .logo{
-	width: 170px ;
-	height: 58px;
+  width: 170px ;
+  height: 58px;
 }
 
 .segunda-seccion{
-	padding: 50px;
+  padding: 50px;
 }
 
 .caja-texto{
-	border-radius: 5px;
-	background-color: grey;
+  border-radius: 5px;
+  background-color: grey;
 }
 
 .tercera-seccion{
@@ -120,8 +129,8 @@ p.bienvenida-intro {
 }
 
 .logo-footer{
-	width: 250px;
-	height: 100px;
+  width: 250px;
+  height: 100px;
 }
 
 .links{
@@ -147,11 +156,28 @@ p.bienvenida-intro {
   height: 2.5em;
   color: #1b587c;
 }
+.mision-vision{
+  margin-left: 9em;
+  width: 25em;
+  height: 19em;
+}
 
 .texto-contacto-política{
-  margin: 3em 4.2em;
+  margin: 3em 4.8em;
   font-family: 'Raleway', sans-serif;
   color: #1b587c;
+  text-align: center;
+}
+.texto-sobre-nosotros{
+  font-family: 'Raleway', sans-serif;
+  color: grey;
+  text-align: justify;
+  text-align-last:  center;
+  font-size: 1.3em;
+}
+.titulos-sobre-nostros{
+  font-family: 'Raleway', sans-serif;
+  color: grey;
   text-align: center;
 }
 
