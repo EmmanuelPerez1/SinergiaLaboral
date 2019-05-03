@@ -1,5 +1,5 @@
 
-li {
+nav li {
   border-right: 1px solid #1b587c;
 }
 
@@ -162,19 +162,41 @@ p.bienvenida-intro {
   height: 19em;
 }
 
+.imss-infonavit{
+  margin-left: 6em;
+  margin-bottom: 3em;
+  width: 15em;
+  height: 11em; 
+}
+.servicios{
+  width: 15em;
+  height: 15em;
+  margin-left: 3em; 
+}
+.nomina{
+  margin-left: 3em; 
+  width: 20em;
+  height: 17em;
+}
+.procesos{
+  width: 32em;
+  height: 28em;
+}
+
 .texto-contacto-política{
   margin: 3em 4.8em;
   font-family: 'Raleway', sans-serif;
   color: #1b587c;
   text-align: center;
 }
+
 .texto-sobre-nosotros{
   font-family: 'Raleway', sans-serif;
   color: grey;
   text-align: justify;
-  text-align-last:  center;
-  font-size: 1.3em;
+  font-size: 1.2em;
 }
+
 .titulos-sobre-nostros{
   font-family: 'Raleway', sans-serif;
   color: grey;
