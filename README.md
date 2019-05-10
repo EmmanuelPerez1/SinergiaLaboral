@@ -1,2 +1,2 @@
 # SinergiaLaboral
-Sitio Web de la empresa Sinergia Laboral
+Sitio Web de la empresa Sinergia Laboral (versión mdanieltg!).
