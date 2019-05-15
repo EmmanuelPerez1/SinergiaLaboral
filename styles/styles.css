@@ -15,11 +15,29 @@ nav.navigation-bar:hover a.navbar-brand:hover{
 
 body{
   overflow-x: hidden;
-  /*overflow-y: hidden;*/
 }
 p.bienvenida-intro {
   border-top: 1px solid #fff;
   font-size: 31px;
+}
+
+.j-color{
+  color: white;
+  background-color: #1b587c;
+  opacity: 0.7;
+  padding: 1.5em;
+}
+
+.container .jumbotron h1{
+  border-bottom: 1px solid #fff;
+  font-size: 3.2em;
+  font-family: 'Raleway', sans-serif;
+  text-align: right;
+}
+.container .jumbotron p{
+  font-size: 1.6em;
+  text-align: right;
+  font-family: 'Raleway', sans-serif;
 }
 
 .sobre-nosotros {
@@ -42,7 +60,7 @@ p.bienvenida-intro {
   height: auto;
   background-image: url("../images/3_pag_cabeza.jpg");
   background-repeat: no-repeat;
-  background-size: 100% auto; 
+  background-size: 100% auto;
 }
 
 .background-contacto{
@@ -50,7 +68,7 @@ p.bienvenida-intro {
   height: auto;
   background-image: url("../images/5_pag_cabeza.jpg");
   background-repeat: no-repeat;
-  background-size: 100% auto;  
+  background-size: 100% auto;
 }
 
 .background-política-calidad{
@@ -58,7 +76,7 @@ p.bienvenida-intro {
   height: auto;
   background-image: url("../images/4_pag_cabeza.jpg");
   background-repeat: no-repeat;
-  background-size: 100% auto;   
+  background-size: 100% auto;
 }
 
 .background-sobre-nosotros{
@@ -118,7 +136,7 @@ p.bienvenida-intro {
 }
 
 .tercera-seccion{
-  padding: 50px; 
+  padding: 50px;
 }
 
 .caja1{
@@ -167,15 +185,15 @@ p.bienvenida-intro {
   margin-left: 6em;
   margin-bottom: 3em;
   width: 15em;
-  height: 11em; 
+  height: 11em;
 }
 .servicios{
   width: 15em;
   height: 15em;
-  margin-left: 3em; 
+  margin-left: 3em;
 }
 .nomina{
-  margin-left: 3em; 
+  margin-left: 3em;
   width: 20em;
   height: 17em;
 }
