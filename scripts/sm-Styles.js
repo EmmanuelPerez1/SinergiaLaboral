@@ -7,13 +7,14 @@ function changeTextAlingClassToSm() {
 		document.getElementById("footer").classList.add("text-center");
 		removeEspacesForSm();
 		// removeJumbotronForSm();
+		changeAligntoTextForSm();
 	}
 }
 
 function removeEspacesForSm(){
 	var espaces = document.getElementsByClassName("espaces-to-remove");
 	for (var i = 0; i < espaces.length; i++) {
-		espaces[i].remove("espaces-to-remove")
+		espaces[i].remove("espaces-to-remove");
 	}
 }
 
@@ -22,9 +23,12 @@ function removeJumbotronForSm(){
 	jumbotron[0].remove("j-color")
 }
 
-// function resizeVideoMainPage(){
-// 	var video = document.getElementsByTagName("iframe")
-// 	video.
-// }
+function changeAligntoTextForSm(){
+	var h1p = document.getElementsByClassName("sm-size")
+	for (var i = 0; i < h1p.length; i++) {
+		h1p[i].style.textAlign = "center";
+		h1p[i].style.fontSize = "1.8em";
+	}
+}
 
 window.onresize = changeTextAlingClassToSm;
