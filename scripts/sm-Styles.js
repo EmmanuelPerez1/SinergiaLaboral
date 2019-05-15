@@ -5,8 +5,8 @@ const smSize = 576;
 function changeTextAlingClassToSm() {
 	if(heightWindow <= smSize || widthWindow <= smSize){
 		document.getElementById("footer").classList.add("text-center");
-
 		removeEspacesForSm();
+		// removeJumbotronForSm();
 	}
 }
 
@@ -15,6 +15,11 @@ function removeEspacesForSm(){
 	for (var i = 0; i < espaces.length; i++) {
 		espaces[i].remove("espaces-to-remove")
 	}
+}
+
+function removeJumbotronForSm(){
+	var jumbotron = document.getElementsByClassName("j-color")
+	jumbotron[0].remove("j-color")
 }
 
 // function resizeVideoMainPage(){
