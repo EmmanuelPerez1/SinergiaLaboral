@@ -23,7 +23,7 @@ p.bienvenida-intro {
 
 .j-color{
   color: white;
-  background-color: #1b587c;
+  background: linear-gradient(to top left, #1b587c 7%, #003366 43%);
   opacity: 0.7;
   padding: 1.5em;
 }
