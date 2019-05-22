@@ -18,10 +18,10 @@ function removeEspacesForSm(){
 }
 
 function changeAligntoTextForSm(){
-	var h1p = document.getElementsByClassName("sm-size");
-	for (var i = 0; i < h1p.length; i++) {
-		h1p[i].style.textAlign = "center";
-		h1p[i].style.fontSize = "1.8em";
+	var headersAndParagraphs = document.getElementsByClassName("sm-size");
+	for (var i = 0; i < headersAndParagraphs.length; i++) {
+		headersAndParagraphs[i].style.textAlign = "center";
+		headersAndParagraphs[i].style.fontSize = "1.8em";
 	}
 }
 

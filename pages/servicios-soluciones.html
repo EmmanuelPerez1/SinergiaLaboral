@@ -83,6 +83,8 @@
 <!-- Espacios para imagen de fondo -->
 <div class="container">
   <div class="row"> <p></p> </div>
+</div>
+<div class="container espaces-to-remove">
   <div class="row"> <p></p> </div>
   <div class="row"> <p></p> </div>
   <div class="row"> <p></p> </div>
@@ -95,14 +97,14 @@
   <div class="row"> <p></p> </div>
 </div>
 <!-- Servicios -->
-<div class="container" style="margin: 3em 7em;">
+<div class="container"> <!--style="margin: 3em 7em;"-->
   <div class="row">
     <h2 class="titulos-sobre-nostros"><i><b>Nómina</b></i></h2>
   </div>
   <div class="col-sm col-lg">
     <p class="texto-sobre-nosotros">Ofrecemos al cliente un servicio para agilizar y garantizar el correcto cálculo de los pagos puntuales de nómina, cuotas patronales y obreras del IMSS, ISR, Impuesto sobre Nómina y la información necesaria para elaborar la Declaración Informativa Anual.</p>
 
-    <p class="texto-sobre-nosotros">Aprovechando de forma oportuna para beneficio de nuestros clientes y colaboradores, todos los beneficios y estímulos fiscales que las autoridades permiten. Otorgamos toda la asesoría legal laboral que nuestro cñiente requiera.</p>
+    <p class="texto-sobre-nosotros">Aprovechando de forma oportuna para beneficio de nuestros clientes y colaboradores, todos los beneficios y estímulos fiscales que las autoridades permiten. Otorgamos toda la asesoría legal laboral que nuestro cliente requiera.</p>
     <div class="row">
       <div class="col-sm-6 col-lg-6l">
         <ul class="texto-sobre-nosotros">
@@ -118,13 +120,16 @@
         </ul>
       </div>
       <div class="col-sm-6 col-lg-6">
-      <img src="../images/3-imagenes-contenido-a.png" alt="nomina" class="nomina">
+        <div class="row justify-content-center">
+          <img src="../images/3-imagenes-contenido-a.png" alt="nomina" class="nomina">
+        </div>
       </div>
   </div>
 
   </div>
   <div class="row">
     <img src="../images/3-imagenes-contenido-b.png" alt="Servicos y soluciones" style="width: 100%">
+    <div class="row"> <p></p> </div>
   </div>
   <div class="row">
     <div class="col-sm-12 col-lg-12">
@@ -134,7 +139,10 @@
   </div>
   <div class="row">
     <div class="col-sm-6 col-lg-6">
-      <img src="../images/3-imagenes-contenido-c.jpg" alt="IMSS" class="imss-infonavit">
+      <div class="row justify-content-center">
+         <div class="row"> <p></p> </div>
+        <img src="../images/3-imagenes-contenido-c.jpg" alt="IMSS" class="imss-infonavit">
+      </div>
       <ul class="texto-sobre-nosotros">
         <li>Envio de movimientos</li>
         <li>Consultoria y soporte técnico IDSE</li>
@@ -147,7 +155,9 @@
       </ul>
     </div>
     <div class="col-sm-6 col-lg-6">
-      <img src="../images/3-imagenes-contenido-d.jpg" alt="INFONAVIT" class="imss-infonavit">
+      <div class="row justify-content-center">
+        <img src="../images/3-imagenes-contenido-d.jpg" alt="INFONAVIT" class="imss-infonavit">
+      </div>
       <ul class="texto-sobre-nosotros">
         <li>Amortización y Entero de pagos</li>
         <li>Aclaración de créditos</li>
@@ -196,7 +206,6 @@
           <li>Contrato de cumplimiento</li>
           <li>Cálculos correctos</li>
           <li>El mejor precio del mercado</li>
-          <li>Transparencia</li>
       </ul>
     </div>
 
@@ -217,7 +226,9 @@
   </div>
 <div class="row">
   <div class="col-sm-6 col-lg-6">
-    <img src="../images/3-imagenes-contenido-h.png" alt="procedimiento" class="procesos">
+    <div class="row justify-content-center">
+      <img src="../images/3-imagenes-contenido-h.png" alt="procedimiento" class="procesos">
+    </div>
   </div>
   <div class="col-sm-6 col-lg-6">
     <h3 class="titulos-sobre-nostros"><i><b>Procesos</b></i></h3>
@@ -230,7 +241,7 @@
 
 </div>
 <!-- Pie de página -->
-<div class="container-fluid footer">
+<div class="container-fluid footer" id="footer">
   <div class="row justify-content-center">
     <div class="col-sm-2  col-md-2 col-lg-2">
       <p><img src="../images/logo-sinergia--blanco.png" class="logo-footer"></p>
@@ -260,5 +271,7 @@
     </div>
   </div>
 </div>
-</div></body>
+<script type="text/javascript" src="../scripts/sm-Styles.js"></script>
+</div>
+</body>
 </html>

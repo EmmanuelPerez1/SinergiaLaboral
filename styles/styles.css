@@ -182,10 +182,10 @@ p.bienvenida-intro {
 }
 
 .imss-infonavit{
-  margin-left: 6em;
-  margin-bottom: 3em;
-  width: 15em;
-  height: 11em;
+  /*margin-left: 6em;
+  margin-bottom: 3em;*/
+  width: 60%;
+  height: 20%;
 }
 .servicios{
   width: 15em;
@@ -193,13 +193,13 @@ p.bienvenida-intro {
   margin-left: 3em;
 }
 .nomina{
-  margin-left: 3em;
-  width: 20em;
-  height: 17em;
+  /*margin-left: 3em; */
+  width: 60%;
+  height: 20%;
 }
 .procesos{
-  width: 32em;
-  height: 28em;
+  width: 60%;
+  height: 20%;
 }
 
 .texto-contacto-política{
