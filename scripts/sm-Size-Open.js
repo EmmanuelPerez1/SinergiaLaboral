@@ -1,9 +1,9 @@
 var	heightWindow = document.querySelector('#height');
 var widthWindow = document.querySelector('#width');
-const smReSize = 576;
+const smSize = 576;
 
 function changeTextAlingClassToSm() {
-	if(heightWindow <= smReSize || widthWindow <= smReSize){
+	if(heightWindow <= smSize || widthWindow <= smSize){
 		document.getElementById("footer").classList.add("text-center");
 		removeEspacesForSm();
 		changeAligntoTextForSm();
@@ -25,5 +25,4 @@ function changeAligntoTextForSm(){
 	}
 }
 
-
-window.onresize = changeTextAlingClassToSm;
+changeTextAlingClassToSm();
