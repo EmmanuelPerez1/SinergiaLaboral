@@ -204,7 +204,9 @@ p.bienvenida-intro {
 }
 
 .texto-contacto-política{
-  margin: 3em 4.8em;
+  /*margin: 3em 4.8em;*/
+  margin-bottom: 2em;
+  margin-top: 2em;
   font-family: 'Raleway', sans-serif;
   color: #1b587c;
   font-size: 1.2em;
